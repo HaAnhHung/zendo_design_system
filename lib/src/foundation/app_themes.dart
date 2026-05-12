@@ -8,7 +8,7 @@ final lightTheme = ThemeData(
   splashColor: Colors.transparent,
 )..addAppColor(
     AppThemeType.light,
-    AppColors.defaultAppColor,
+    AppColors.lightThemeColor,
   );
 
 final darkTheme = ThemeData(

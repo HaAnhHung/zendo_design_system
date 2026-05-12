@@ -35,20 +35,26 @@ class AppColors {
   /// gradient
   final LinearGradient primaryGradient;
 
-  static const defaultAppColor = AppColors(
-    primaryColor: Color(0xFFD3BCFC),
-    secondaryColor: Color(0xFFA2D3A4),
-    tertiaryColor: Color(0xFFFFACC6),
-    primaryTextColor: Color(0xFFE7E5E4),
-    secondaryTextColor: Color(0xFFACABAA),
-    backgroundColor: Color(0xFF0E0E0E),
-    surfaceColor: Color(0xFF0E0E0E),
-    surfaceContainerLow: Color(0xFF131313),
-    surfaceContainerHigh: Color(0xFF1F2020),
-    surfaceContainerHighest: Color(0xFF262626),
-    primaryContainer: Color(0xFF5C4880),
-    primaryGradient: LinearGradient(colors: [Color(0xFFD3BCFC), Color(0xFF5C4880)], begin: Alignment.topLeft, end: Alignment.bottomRight),
+  static const lightThemeColor = AppColors(
+    primaryColor: Color(0xFF7C4DFF),
+    secondaryColor: Color(0xFF00BFA5),
+    tertiaryColor: Color(0xFFFF4081),
+    primaryTextColor: Color(0xFF1A1A1A),
+    secondaryTextColor: Color(0xFF757575),
+    backgroundColor: Color(0xFFF8F9FF),
+    surfaceColor: Color(0xFFFFFFFF),
+    surfaceContainerLow: Color(0xFFF0F2F9),
+    surfaceContainerHigh: Color(0xFFE5E9F2),
+    surfaceContainerHighest: Color(0xFFDCE2ED),
+    primaryContainer: Color(0xFFEDE7F6),
+    primaryGradient: LinearGradient(
+      colors: [Color(0xFF7C4DFF), Color(0xFFB388FF)],
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight,
+    ),
   );
+
+  static const defaultAppColor = lightThemeColor;
 
   static const darkThemeColor = AppColors(
     primaryColor: Color(0xFFD3BCFC),
@@ -61,7 +67,7 @@ class AppColors {
     surfaceContainerLow: Color(0xFF131313),
     surfaceContainerHigh: Color(0xFF1F2020),
     surfaceContainerHighest: Color(0xFF262626),
-    primaryContainer: Color(0xFF5C4880),
+    primaryContainer: Color(0xFF4F378B),
     primaryGradient: LinearGradient(colors: [Color(0xFFD3BCFC), Color(0xFF5C4880)], begin: Alignment.topLeft, end: Alignment.bottomRight),
   );
 
